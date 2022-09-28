@@ -1,0 +1,56 @@
+.titulo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.subtitulo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+table {
+	margin-left: 10px;
+}
+
+th {
+	padding: 10px;
+	justify-content: center;
+	background: rgb(201, 201, 201);
+}
+
+td {
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.equipe {
+	text-align: left;
+	background: rgb(201, 201, 201);
+}
+
+.times {
+	background: rgb(201, 201, 201);
+}
+
+.argentina {
+	text-align: left;
+}
+
+.arabia {
+	text-align: left;
+}
+
+.mexico {
+	text-align: left;
+}
+
+.polonia {
+	text-align: left;
+}

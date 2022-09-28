@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+    
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            background-color: gray;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+        }
+
+        aside {
+            background-color: rgb(100, 100, 255);
+            color: white;
+            padding: 12px;
+        }
+
+        .menu {
+            flex: 1;
+        }
+
+        header {
+            padding: 12px;
+            background-color: rgb(255, 132, 132);
+        }
+
+        .conteudo {
+            background-color: rgb(255, 212, 133);
+            padding: 12px;
+            height: 90%;
+        }
+
+        footer {
+            padding: 12px;
+            background-color: rgb(194, 137, 252);
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <main>
+            <aside>pesquisa</aside>
+                <div class="menu"><header>exemplo de cabeçalho</header>
+                <div class="conteudo">conteudo</div></div>
+        </main>
+    <footer>exemplo de rodapé</footer>
+    </div>
+</body>
+</html>
