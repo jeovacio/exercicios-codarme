@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+body {
+    width: 100%;
+    display: flex;
+    background-color:#efefef;
+}
+
+h1 {
+    position: absolute;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 210px;
+    padding-top: 35px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(4, 182, 182);
+}
+
+img {
+    position: absolute;
+    padding-left: 330px;
+    padding-top: 38px;
+    width: 30px;
+    height: 30px;
+}
+
+.mensagem {
+    position: absolute;
+    margin-left: 208px;
+    margin-top: 75px;
+    background-color: white;
+    border-radius: 5%;
+    padding: 5px;
+    font-weight: 700;
+}
+.seguir {
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 75px;
+    background-color: white;
+    border-radius: 5%;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.perfil {
+    padding: 3px;
+    margin: 20px;
+    border-width: 3px;
+    border-style: groove;
+    border-top-color: rgb(167, 5, 40);
+    border-left-color: rgb(255, 6, 6);
+    border-right-color: rgb(241, 93, 24);
+    border-bottom-color: rgb(248, 38, 178);
+    border-radius: 50%;
+    width: 125px;
+    height: 130px;
+}
+
+.publicacao {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 115px;
+}
+
+.publicacaoum {
+    font-weight: bolder;
+}
+
+.seguidor {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 115px;
+}
+
+.seguidorzero {
+    font-weight: bolder;
+}
+
+.seguindo {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 115px;
+    font-weight: bolder;
+}
+
+.imgdois {
+    width: 200px;
+    height: 200px;
+    padding-top: 170px;
+    padding-left: 210px;
+}
+.email {
+    margin-top: 160px;
+    margin-left: 210px;
+    padding: 2px;
+}
+
+.github {
+    margin-left: 210px;
+    padding: 2px;
+
+}
+
+.link {
+    margin-left: 210px;
+    padding: 2px;
+}
+
+h3 {
+    margin-top: 300px;
+    font-size: 20px;
+    color: blueviolet;
+}

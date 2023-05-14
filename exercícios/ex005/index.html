@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex005</title>
+<style>
+        
+       
+        html, body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+
+        main {
+            width: 300px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            border: none;
+        }
+
+        .bloco1 {
+            display: flex;
+            justify-content: flex-start;
+            margin: 1px;
+            border-radius: 10%;
+        }
+
+        .bloco2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bloco3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .zero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 140px;
+            width: 170px;
+            margin: 1px;
+            border-radius: 10%;
+            background-color: gainsboro;
+        }
+
+        .um {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+            width: 150px;
+            margin: 1px;
+            border-radius: 10%;
+            background-color: gainsboro;
+        }
+
+        .dois {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 68px;
+            width: 72px;
+            border-radius: 10%;
+            background-color: gainsboro;
+        }
+
+        .tres {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 68px;
+            width: 72px;
+            border-radius: 10%;
+            background-color: gainsboro;
+        }
+
+        .quatro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            margin-bottom: 1px;
+            border-radius: 10%;
+            background-color: gainsboro;
+        }
+
+        .bloco4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .cinco {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 130px;
+            width: 150px;
+            margin: 1px;
+            border-radius: 10%;
+            background-color: gainsboro;
+        }
+        
+        .seis {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 130px;
+            width: 150px;
+            margin: 1px;
+            border-radius: 10%;
+            background-color: gainsboro;
+        }
+        
+        button {
+            border-radius: 100%;
+            background-color: white;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+
+        <div class="bloco1">
+            <div class="zero"><button class="btn">0</button></div>
+                <div class="bloco2">
+                    <div class="um"><button>1</button></div>
+                        <div class="bloco3">
+                            <div class="dois"><button>2</button></div>
+                            <div class="tres"><button>3</button></div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="quatro"><button>4</button></div>
+
+        <div class="bloco4">
+            <div class="cinco"><button>5</button></div>
+            <div class="seis"><button>6</button></div>
+        </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #d6d4e2;
+                width: 100vw;
+                height: 100vh;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                width: 20%;
+                height: 10%;
+                border-radius: 12px;
+                background-color: #ffffff;
+            }
+
+            img {
+                width: 48px;
+                height: 48px;
+            }
+
+            .textos {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            .titulo {
+                font-size: 1.3em;
+                font-family: 'Space Grotesk';
+                font-weight: 700;
+                line-height: 30px;
+            }
+
+            .nick {
+                display: none;
+            }
+
+            a:link{
+                color: #18161F;
+            }
+
+            .sub {
+                font-size: 0.8em;
+                font-family: 'Space Grotesk';
+                font-weight: 400;
+                color:#49445F;
+
+            }
+
+            @media (max-width: 1250px) {
+                body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #d6d4e2;
+                width: 100vw;
+                height: 100vh;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                width: 20%;
+                height: 10%;
+                border-radius: 12px;
+                background-color: #ffffff;
+            }
+
+            img {
+                display: none;
+            }
+
+            .titulo {
+                display: none;
+            }
+
+            .nick {
+                display: block;
+                font-size: 1.5em;
+                font-family: 'Space Grotesk';
+                font-weight: 700;
+            }
+
+            .sub {
+                display: none;
+            }
+            
+            }
+
+        </style>
+</head>
+<body>
+    <div>
+        <img src="Vector.png" alt="icone-pessoal">
+        <div class="textos">
+            <p class="titulo"><a href="www.github.com/jeovacio" target="_blank">Jeovacio Souza</a></p>
+            <p class="nick"><a href="www.github.com/jeovacio" target="_blank">Jhey</a></p>
+            <p class="sub">Input: Do zero ao mercado</p>
+        </div>
+    </div>
+</body>
+</html>
