@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&display=swap');
+
+body {
+    background-color: rgb(207, 204, 204);
+}
+
+main {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-45%, 0);
+}
+
+.titulo, .subtitulo {
+    display: flex;
+    align-items: center;
+}
+
+.subtitulo {
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 0 0 10px;
+}
+
+#txt1 {
+    width: 472px;
+    height: 20px;
+    border-radius: 16px;
+    border: none;
+    margin: 0 10px 0 0;
+    padding: 16px;
+    background-color: #ffffff;
+    color: #a8a6b1;
+}
+
+button {
+    width: 152px;
+    height: 55px;
+    border-radius: 16px;
+    border: none;
+    background-color: #2ba72b;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #00ff00;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 472px;
+    height: 20px;
+    margin: 5px 0 5px 0;
+    padding: 16px;
+    border-radius: 16px;
+    border: 2px solid #2ba72b;
+    font: 600 24px 'Space Grotesk';
+    background-color: #ffffff;
+    color: #02B553;
+}
+
+p:hover {
+    box-shadow: 0 0 3px 0.5px;
+}
+
+article {
+    max-height: 315px;
+    overflow-y: scroll;
+}
+
+.img2:hover path{
+    stroke: #fd0000;
+}
+
+.check input[type="checkbox"] {
+    display: none;
+}
+
+.check label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(Frame.svg);
+    background-size: cover;
+    cursor: pointer;
+}  
+
+.check input[type="checkbox"]:checked + label {
+    background-image: url(check.svg);
+}
+
+span.check {
+    height: 20px;
+    width: 25px;
+}
